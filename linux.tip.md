@@ -1,0 +1,6 @@
+- 특정 포트 확인
+    - netstat -nap | grep <port number>
+- 특정 포트에서 사용하는 프로그램 
+    - lsof -i TCP:<Port Number>
+- 특정 포트를 사용하는 프로그램 죽이기
+    - fuser -k -n tcp <Port Number>
