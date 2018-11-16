@@ -7,4 +7,7 @@
  * source ~/.zshrc
  * brew services start mysql@5.7
  * mysql_secure_installation
- * mysql_secure_installation
+ * CREATE DATABASE myapp
+ * CREATE USER 'homestead' IDENTIFIED BY 'secret'
+ * GRANT ALL PRIVILEGES ON myapp.* TO 'homestead';
+ * FLUSH PRIVILEGES;
